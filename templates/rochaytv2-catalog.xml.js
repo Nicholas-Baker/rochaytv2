@@ -35,7 +35,7 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
               <grid>
                 <section>
                   <lockup vidUrl="https://s3-eu-west-1.amazonaws.com/rochaytv/Naveen-Jain-HD1080p.mov">
-                    <img src="${this.BASEURL}resources/paulmckenna2.lcr" width="548" height="308" />
+                    <img src="${this.BASEURL}resources/naveenjain.lcr" width="548" height="308" />
                     <title class="whiteText">Naveen Jain</title>
                   </lockup>
                   <lockup vidUrl="https://s3-eu-west-1.amazonaws.com/rochaytv/Paul-McKenna-HD1080p.mov">
