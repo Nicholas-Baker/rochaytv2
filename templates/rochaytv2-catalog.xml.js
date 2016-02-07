@@ -16,7 +16,7 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
     </head>
     <catalogTemplate>
         <background>
-            <img src="${this.BASEURL}resources/crest-bkg3.png" />
+            <img src="${this.BASEURL}resources/crest-bkg-4.png" />
         </background>
       <banner>
         <background>
@@ -30,10 +30,14 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
           </header>
           <listItemLockup>
             <title>In Conversation with...</title>
-            <decorationLabel>6</decorationLabel>
+            <decorationLabel>7</decorationLabel>
             <relatedContent>
               <grid>
                 <section>
+                  <lockup vidUrl="https://s3-eu-west-1.amazonaws.com/rochaytv/Naveen-Jain-HD1080p.mov">
+                    <img src="${this.BASEURL}resources/paulmckenna2.lcr" width="548" height="308" />
+                    <title class="whiteText">Naveen Jain</title>
+                  </lockup>
                   <lockup vidUrl="https://s3-eu-west-1.amazonaws.com/rochaytv/Paul-McKenna-HD1080p.mov">
                     <img src="${this.BASEURL}resources/paulmckenna2.lcr" width="548" height="308" />
                     <title class="whiteText">Paul McKenna</title>
