@@ -74,7 +74,7 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
                 <section>
                   <lockup vidUrl="https://s3-eu-west-1.amazonaws.com/rochaytv/SteinwayHD1080p.mov">
                     <img src="${this.BASEURL}resources/Steinway.lcr" width="548" height="308" />
-                    <title class="whiteText">Steinway & Sons</title>
+                    <title class="whiteText">Steinway and Sons</title>
                   </lockup>
                 </section>
               </grid>
