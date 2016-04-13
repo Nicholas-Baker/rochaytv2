@@ -30,7 +30,7 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
           </header>
           <listItemLockup>
             <title>In Conversation with...</title>
-            <decorationLabel>7</decorationLabel>
+            <decorationLabel>8</decorationLabel>
             <relatedContent>
               <grid>
                 <section>
@@ -62,13 +62,17 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
                     <img src="${this.BASEURL}resources/nigel-stuart.lcr" width="548" height="308" />
                     <title class="whiteText">Nigel Stewart</title>
                   </lockup>
+                  <lockup vidUrl="https://s3-eu-west-1.amazonaws.com/rochaytv/Kestrel-HD1080p.mov">
+                    <img src="${this.BASEURL}resources/nigel-stuart.lcr" width="548" height="308" />
+                    <title class="whiteText">Peter Cooke</title>
+                  </lockup>
                 </section>
               </grid>
             </relatedContent>
           </listItemLockup>
           <listItemLockup>
             <title>Luxury Insights...</title>
-            <decorationLabel>4</decorationLabel>
+            <decorationLabel>5</decorationLabel>
             <relatedContent>
               <grid>
                 <section>
@@ -88,19 +92,27 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
                     <img src="${this.BASEURL}resources/Spirio.lcr" width="548" height="308" />
                     <title class="whiteText">Steinway - Spirio</title>
                   </lockup>
+                  <lockup vidUrl="https://s3-eu-west-1.amazonaws.com/rochaytv/Helconia_by_Lalique1080p.mov">
+                    <img src="${this.BASEURL}resources/Haliconia.lcr" width="548" height="308" />
+                    <title class="whiteText">Heliconia by Lalique</title>
+                  </lockup>
                 </section>
               </grid>
             </relatedContent>
           </listItemLockup>
           <listItemLockup>
             <title>Luxury Events...</title>
-            <decorationLabel>1</decorationLabel>
+            <decorationLabel>2</decorationLabel>
             <relatedContent>
               <grid>
                 <section>
                   <lockup vidUrl="https://s3-eu-west-1.amazonaws.com/rochaytv/LLX-Promo-HD1080p.mov">
                     <img src="${this.BASEURL}resources/llx-thumbnail.lcr" width="548" height="308" />
                     <title class="whiteText">London Luxury Expo</title>
+                  </lockup>
+                  <lockup vidUrl="https://s3-eu-west-1.amazonaws.com/rochaytv/NicoleD1080p.mov">
+                    <img src="${this.BASEURL}resources/Nicole.lcr" width="548" height="308" />
+                    <title class="whiteText">Nichole de Carle London</title>
                   </lockup>
                 </section>
               </grid>
