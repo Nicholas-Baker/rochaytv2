@@ -68,13 +68,25 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
           </listItemLockup>
           <listItemLockup>
             <title>Luxury Insights...</title>
-            <decorationLabel>1</decorationLabel>
+            <decorationLabel>4</decorationLabel>
             <relatedContent>
               <grid>
                 <section>
                   <lockup vidUrl="https://s3-eu-west-1.amazonaws.com/rochaytv/SteinwayHD1080p.mov">
                     <img src="${this.BASEURL}resources/Steinway.lcr" width="548" height="308" />
                     <title class="whiteText">Steinway and Sons</title>
+                  </lockup>
+                  <lockup vidUrl="https://s3-eu-west-1.amazonaws.com/rochaytv/hollandandhollandAW15.mov">
+                    <img src="${this.BASEURL}resources/HollandHolland.lcr" width="548" height="308" />
+                    <title class="whiteText">Holland and Holland</title>
+                  </lockup>
+                  <lockup vidUrl="https://s3-eu-west-1.amazonaws.com/rochaytv/NicoleD1080p.mov">
+                    <img src="${this.BASEURL}resources/Nicole.lcr" width="548" height="308" />
+                    <title class="whiteText">Nicole de Carle London</title>
+                  </lockup>
+                  <lockup vidUrl="https://s3-eu-west-1.amazonaws.com/rochaytv/SpirioHD1080p.mov">
+                    <img src="${this.BASEURL}resources/Spirio.lcr" width="548" height="308" />
+                    <title class="whiteText">Steinay - Spirio</title>
                   </lockup>
                 </section>
               </grid>
