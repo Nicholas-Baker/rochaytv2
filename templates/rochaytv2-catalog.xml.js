@@ -63,7 +63,7 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
                     <title class="whiteText">Nigel Stewart</title>
                   </lockup>
                   <lockup vidUrl="https://s3-eu-west-1.amazonaws.com/rochaytv/Kestrel-HD1080p.mov">
-                    <img src="${this.BASEURL}resources/nigel-stuart.lcr" width="548" height="308" />
+                    <img src="${this.BASEURL}resources/peter-cooke.lcr" width="548" height="308" />
                     <title class="whiteText">Peter Cooke</title>
                   </lockup>
                 </section>
