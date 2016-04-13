@@ -73,7 +73,7 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
               <grid>
                 <section>
                   <lockup vidUrl="https://s3-eu-west-1.amazonaws.com/rochaytv/LLX-Promo-HD1080p.mov">
-                    <img src="${this.BASEURL}resources/llx-thumbnail.lcr" width="548" height="308" />
+                    <img src="${this.BASEURL}resources/Steinway.lcr" width="548" height="308" />
                     <title class="whiteText">London Luxury Expo</title>
                   </lockup>
                 </section>
