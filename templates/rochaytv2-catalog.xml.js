@@ -98,10 +98,14 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
           </listItemLockup>
           <listItemLockup>
             <title>Luxury Events...</title>
-            <decorationLabel>5</decorationLabel>
+            <decorationLabel>6</decorationLabel>
             <relatedContent>
               <grid>
                 <section>
+                    <lockup vidUrl="https://s3-eu-west-1.amazonaws.com/rochaytv/RHS-Private-Jet+SoireeHD.mov">
+                    <img src="${this.BASEURL}resources/private-jet.lcr" width="548" height="308" />
+                    <title class="whiteText">Private Jet Soirée</title>
+                  </lockup>
                     <lockup vidUrl="https://s3-eu-west-1.amazonaws.com/rochaytv/RHS-Trafalgar-HD1080p.mov">
                     <img src="${this.BASEURL}resources/trafalgar-soiree-tv.lcr" width="548" height="308" />
                     <title class="whiteText">Lord Nelson Trafalgar Soirée</title>
