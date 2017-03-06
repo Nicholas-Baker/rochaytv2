@@ -102,7 +102,7 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
             <relatedContent>
               <grid>
                 <section>
-                    <lockup vidUrl="https://s3-eu-west-1.amazonaws.com/rochaytv/RHS-Private-Jet+SoireeHD.mov">
+                    <lockup vidUrl="https://s3-eu-west-1.amazonaws.com/rochaytv/RHS-Private-Jet-SoireeHD.mov">
                     <img src="${this.BASEURL}resources/private-jet.lcr" width="548" height="308" />
                     <title class="whiteText">Private Jet Soirée</title>
                   </lockup>
